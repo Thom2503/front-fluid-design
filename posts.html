@@ -17,6 +17,7 @@
     * {
       font-family: 'Press Start 2P', cursive;
     }
+
     body {
       background-image: url("img/sparkles.gif");
     }
@@ -78,9 +79,74 @@
         <div class="col-md-12">
           <h2>Posts</h2>
           <h4>Hier zijn paar van mijn favoriete posts:</h4>
-          <p>hier komt een carrousel</p>
+          <p>Hier zijn een paar van mijn favoriete posts.</p>
+          <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" style="border: black dotted 4px;">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a href="blogpost.html"><img src="img/fez.jpg" class="d-block w-100" alt="een screenshot van de game Fez"></a>
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>The art of pixel art</h5>
+                  <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <a href="blogpost.html"><img src="img/snescovers.jpg" class="d-block w-100" alt="een foto van covers van snes games"></a>
+                <div class="carousel-caption d-none d-md-block" style="color: white;">
+                  <h5>SNES is de beste console.</h5>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <a href="blogpost.html"><img src="img/stardewvalleyScreenshot.png" class="d-block w-100" alt="een screenshot van de game stardew valley"></a>
+                <div id="item" class="carousel-caption d-none d-md-block" style="color: white;">
+                  <h5>Stardew Valley de rust is hier.</h5>
+                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
           <h4>Alle posts:</h4>
-          <p>Hier komen posts te staan</p>
+          <p>Hier zijn al mijn posts:</p>
+          <div class="card-group">
+            <div class="card">
+              <img src="img/fez.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">The art of pixel art</h5>
+                <p class="card-text"> Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Uploaded op (datum hier)</small>
+              </div>
+            </div>
+            <div class="card">
+              <img src="img/snescovers.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">SNES is de beste console.</h5>
+                <p class="card-text">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Uploaded op (datum hier)</small>
+              </div>
+            </div>
+            <div class="card">
+              <img src="img/stardewvalleyScreenshot.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Stardew Valley de rust is hier.</h5>
+                <p class="card-text">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Uploaded op (datum hier)</small>
+              </div>
+            </div>
+          </div>
           <h3>Social media:</h3>
           <a href="https://github.com/Thom2503" target="_blank"><i class="nes-icon github is-large"></i></a>
           <a href="https://twitter.com/Thom2503" target="_blank"><i class="nes-icon twitter is-large"></i></a>
