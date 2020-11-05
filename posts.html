@@ -22,6 +22,16 @@
       background-image: url("img/sparkles.gif");
     }
 
+    a {
+      text-decoration: none;
+      color: black;
+    }
+
+    a:hover {
+      text-decoration: none;
+      color: #CE93D8;
+    }
+
     ::-moz-selection {
       /* Code for Firefox */
       color: white;
@@ -116,15 +126,17 @@
           <h4>Alle posts:</h4>
           <p>Hier zijn al mijn posts:</p>
           <form class="form-inline my-2 my-lg-0">
-           <input class="form-control mr-sm-2" type="search" placeholder="Zoeken" aria-label="Search">
-           <button type="button" class="btn btn-primary btn-lg" data-toggle="tooltip" data-placement="top" title="Er kan nog niks verzonden worden" style="background-color: #CE93D8;">Zoeken</button>
-         </form> <br>
+            <input class="form-control mr-sm-2" type="search" placeholder="Zoeken" aria-label="Search">
+            <button type="button" class="btn btn-primary btn-lg" data-toggle="tooltip" data-placement="top" title="Er kan nog niks verzonden worden" style="background-color: #CE93D8;">Zoeken</button>
+          </form> <br>
           <div class="card-group">
             <div class="card">
               <img src="img/fez.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">The art of pixel art</h5>
-                <p class="card-text"> Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                <a href="blogpost.html">
+                  <h5 class="card-title">The art of pixel art</h5>
+                  <p class="card-text"> Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                </a>
               </div>
               <div class="card-footer">
                 <small class="text-muted">Uploaded op (datum hier)</small>
@@ -133,8 +145,10 @@
             <div class="card">
               <img src="img/snescovers.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">SNES is de beste console.</h5>
-                <p class="card-text">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                <a href="blogpost.html">
+                  <h5 class="card-title">SNES is de beste console.</h5>
+                  <p class="card-text">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                </a>
               </div>
               <div class="card-footer">
                 <small class="text-muted">Uploaded op (datum hier)</small>
@@ -143,8 +157,10 @@
             <div class="card">
               <img src="img/stardewvalleyScreenshot.png" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Stardew Valley de rust is hier.</h5>
-                <p class="card-text">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                <a href="blogpost.html">
+                  <h5 class="card-title">Stardew Valley de rust is hier.</h5>
+                  <p class="card-text">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                </a>
               </div>
               <div class="card-footer">
                 <small class="text-muted">Uploaded op (datum hier)</small>
@@ -155,8 +171,10 @@
             <div class="card">
               <img src="img/html.png" class="card-img-top" alt="plaatje van HTML code">
               <div class="card-body">
-                <h5 class="card-title">HTML is in theorie beter dan C</h5>
-                <p class="card-text"> Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                <a href="blogpost.html">
+                  <h5 class="card-title">HTML is in theorie beter dan C</h5>
+                  <p class="card-text"> Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                </a>
               </div>
               <div class="card-footer">
                 <small class="text-muted">Uploaded op (datum hier)</small>
@@ -165,8 +183,10 @@
             <div class="card">
               <img src="img/festival.jpg" class="card-img-top" alt="foto van tommorowland">
               <div class="card-body">
-                <h5 class="card-title">Festivals in het oog van iemand die daar nooit naar toe gaat</h5>
-                <p class="card-text">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                <a href="blogpost.html">
+                  <h5 class="card-title">Festivals in het oog van iemand die daar nooit naar toe gaat</h5>
+                  <p class="card-text">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                </a>
               </div>
               <div class="card-footer">
                 <small class="text-muted">Uploaded op (datum hier)</small>
@@ -175,8 +195,10 @@
             <div class="card">
               <img src="img/reinierzonneveld.jpg" class="card-img-top" alt="Foto van reinier zonneveld">
               <div class="card-body">
-                <h5 class="card-title">Techno is de nieuwe gabber</h5>
-                <p class="card-text">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                <a href="blogpost.html">
+                  <h5 class="card-title">Techno is de nieuwe gabber</h5>
+                  <p class="card-text">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                </a>
               </div>
               <div class="card-footer">
                 <small class="text-muted">Uploaded op (datum hier)</small>
@@ -186,13 +208,13 @@
           <nav aria-label="Page navigation example">
             <ul class="pagination justify-content-center">
               <li class="page-item">
-                <a class="page-link" href="#" tabindex="-1">Previous</a>
+                <a class="page-link" href="#" tabindex="-1" style="color: #CE93D8;">Previous</a>
               </li>
-              <li class="page-item"><a class="page-link" href="#">1</a></li>
-              <li class="page-item"><a class="page-link" href="#">2</a></li>
-              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item"><a class="page-link" href="#" style="color: #CE93D8;">1</a></li>
+              <li class="page-item"><a class="page-link" href="#" style="color: #CE93D8;">2</a></li>
+              <li class="page-item"><a class="page-link" href="#" style="color: #CE93D8;">3</a></li>
               <li class="page-item">
-                <a class="page-link" href="#"  disabled>Next</a>
+                <a class="page-link" href="#" style="color: #CE93D8;">Next</a>
               </li>
             </ul>
           </nav>
