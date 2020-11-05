@@ -14,3 +14,5 @@ Ik heb gebruik gemaakt van 2 frameworks waarvan een meer dan de ander. <br>
 - Je hebt een navigatiemenu waarin de bezoeker kan kiezen om naar minimaal 3 verschillende onderdelen van de site te navigeren.
 - Je hebt een overzicht van, bijvoorbeeld, projecten of producten (afhankelijk van het onderwerp van je site) toegevoegd waarbij je een doorkliksysteem     gebruikt (zoals Bootstrap's carousel of Foundation's Galery) 
 - Je hebt een (contact-)formulier op je site staan. Dit formulier hoeft niet echt te werken (want daarvoor heb je al gauw een backend nodig), maar het moet wel goed in beeld komen op zowel de desktopversie als op een telefoon.  
+
+# Alle pagina's zijn dummie pagina's niks met knoppen werkt echt.
